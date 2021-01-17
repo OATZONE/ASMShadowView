@@ -20,7 +20,7 @@ spec.source       = { :git => "https://github.com/OATZONE/ASMShadowView.git", :t
 
 spec.source_files  = "ASMShadowView", "ASMShadowView/**/*.{h,m,swift}"
 spec.exclude_files = "ASMShadowView/Exclude"
-spec.public_header_files = 'Classes/**/*.h'
+#spec.public_header_files = 'Classes/**/*.h'
 spec.framework = "UIKit"
 
 end
