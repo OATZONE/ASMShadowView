@@ -30,6 +30,7 @@ class MainViewController: UIViewController {
         shadow22.visualView.isHidden = false
         shadow22.visualView.alpha = 0.7
         shadowView.layer.cornerRadius = 10
+       // shadowView.clipsToBounds = true
         fixInView(mainView:shadow22 , shadowView)
         
       
@@ -39,7 +40,7 @@ class MainViewController: UIViewController {
     func settupAnimation(){
       
         UIView.animate(withDuration: 0.5) {
-            self.heightLine.constant = 500
+            self.heightLine.constant = 200
            self.view.layoutIfNeeded()
 
         }
@@ -48,7 +49,7 @@ class MainViewController: UIViewController {
           //  self.heightLine.constant = 1000
     
            // self.updateViewConstraints()
-            self.shadowView.transform = CGAffineTransform.init(scaleX: 1.5, y: 1.5)
+//self.shadowView.transform = CGAffineTransform.init(scaleX: 1.5, y: 1.5)
 
         } completion: { (value) in
         // self.shadow22.showShadow = false
