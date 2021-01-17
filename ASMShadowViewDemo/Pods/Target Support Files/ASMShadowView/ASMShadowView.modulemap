@@ -1,0 +1,6 @@
+framework module ASMShadowView {
+  umbrella header "ASMShadowView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+PODS:
+  - ASMShadowView (1.0.0)
+
+DEPENDENCIES:
+  - ASMShadowView (from `https://github.com/OATZONE/ASMShadowView.git`, branch `main`)
+
+EXTERNAL SOURCES:
+  ASMShadowView:
+    :branch: main
+    :git: https://github.com/OATZONE/ASMShadowView.git
+
+CHECKOUT OPTIONS:
+  ASMShadowView:
+    :commit: 22ee64a19fcb846fc34af7b328f1501af0a77153
+    :git: https://github.com/OATZONE/ASMShadowView.git
+
+SPEC CHECKSUMS:
+  ASMShadowView: 616cd74efefe6fdd011e6ff41a9707105ba8061f
+
+PODFILE CHECKSUM: 3de0edc2847e1487dd0176861876f56f801ef191
+
+COCOAPODS: 1.10.1

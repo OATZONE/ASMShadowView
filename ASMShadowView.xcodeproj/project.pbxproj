@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4D95AD6925B4C6880061E59C /* ASMShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D95AD6725B4C6880061E59C /* ASMShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D95AD7225B4C6BA0061E59C /* ASMShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D95AD7125B4C6BA0061E59C /* ASMShadowView.swift */; };
-		4D95AD7625B4C8E40061E59C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D95AD7525B4C8E40061E59C /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +16,6 @@
 		4D95AD6725B4C6880061E59C /* ASMShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASMShadowView.h; sourceTree = "<group>"; };
 		4D95AD6825B4C6880061E59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D95AD7125B4C6BA0061E59C /* ASMShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASMShadowView.swift; sourceTree = "<group>"; };
-		4D95AD7525B4C8E40061E59C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				4D95AD7125B4C6BA0061E59C /* ASMShadowView.swift */,
-				4D95AD7525B4C8E40061E59C /* Extension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -146,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D95AD7225B4C6BA0061E59C /* ASMShadowView.swift in Sources */,
-				4D95AD7625B4C8E40061E59C /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
