@@ -4,9 +4,9 @@ Pod::Spec.new do |spec|
 
 
 spec.name         = "ASMShadowView"
-spec.version      = "1.0.0"
+spec.version      = "1.0.2"
 spec.summary      = "ASMShadowView"
-spec.description  = "ASMShadowView version 1.0.0"
+spec.description  = "ASMShadowView version 1.0.2"
 
 spec.homepage     = "https://github.com/OATZONE/ASMShadowView"
 spec.license        = { :type => 'MIT', :file => 'LICENSE' }
