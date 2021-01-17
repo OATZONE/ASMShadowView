@@ -4,8 +4,8 @@ platform :ios, '11.0'
 target 'ASMShadowViewDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  pod 'ASMShadowView', '~> 1.2'
 
-
-pod 'ASMShadowView', :git => 'https://github.com/OATZONE/ASMShadowView.git', :branch => 'main'
+#pod 'ASMShadowView', :git => 'https://github.com/OATZONE/ASMShadowView.git', :branch => 'main'
 
 end
